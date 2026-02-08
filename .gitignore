@@ -1,6 +1,5 @@
-# Firebase Config (if you want to keep credentials private)
-# Uncomment the line below if you don't want to commit firebase config
-# firebase-config.js
+# Firebase Config (IMPORTANT: Keep credentials private!)
+firebase-config.js
 
 # OS Files
 .DS_Store
