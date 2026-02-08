@@ -8,26 +8,41 @@ This repository contains **only** the admin dashboard files:
 - `admin.html` - Admin dashboard interface
 - `admin-script.js` - Dashboard JavaScript logic
 - `admin-styles.css` - Dashboard styling
-- `firebase-config.js` - Firebase configuration
+- `firebase-config.template.js` - Firebase configuration template (copy to firebase-config.js)
 - Documentation files (README, guides)
+
+**Note**: `firebase-config.js` is gitignored for security. You must create it from the template.
 
 ## 🚀 Quick Start
 
 ### First Time Setup
 1. Clone this repository:
    ```bash
-   git clone <your-admin-repo-url> threwbew-admin
+   git clone https://github.com/jbr1021221/threwbew-admin.git threwbew-admin
    cd threwbew-admin
    ```
 
-2. Open `admin.html` in your browser or deploy to a hosting service
+2. **Set up Firebase configuration**:
+   ```bash
+   # Copy the template
+   cp firebase-config.template.js firebase-config.js
+   
+   # Edit firebase-config.js and add your Firebase credentials
+   # (This file is gitignored and won't be committed)
+   ```
 
-3. Login with your admin credentials
+3. Open `admin.html` in your browser or deploy to a hosting service
+
+4. Login with your admin credentials
 
 ### Updating on Another Device
 ```bash
 cd threwbew-admin
 git pull origin main
+
+# If firebase-config.js doesn't exist, create it from template
+cp firebase-config.template.js firebase-config.js
+# Then edit firebase-config.js with your credentials
 ```
 
 ## 🔐 Security
