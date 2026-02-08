@@ -1,0 +1,21 @@
+# Firebase Config (if you want to keep credentials private)
+# Uncomment the line below if you don't want to commit firebase config
+# firebase-config.js
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+.cache/
