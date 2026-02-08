@@ -1,6 +1,12 @@
 # Firebase Config (IMPORTANT: Keep credentials private!)
 firebase-config.js
 
+# Sensitive Documentation (may contain passwords/keys)
+PASSWORD_GUIDE.md
+SECURITY_GUIDE.md
+ADMIN_README.md
+SECURITY_INCIDENT.md
+
 # OS Files
 .DS_Store
 Thumbs.db
